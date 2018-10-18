@@ -1,0 +1,93 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 10px
+}
+
+td, p {
+  font-family: 'Dosis', sans-serif;
+  padding-bottom: 5px;
+}
+
+img:hover {
+  opacity: 0.2;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#first {
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 40px;
+  max-width: 280px;
+  margin: auto auto;
+  font-family: 'Mali', cursive;
+}
+
+#avatar {
+  width: 45%;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.social_icons {
+  width: 10%;
+  margin: 2px;
+}
+
+.card_aboutme {
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 20px;
+  margin: 10px 100px;
+  max-width: 370px;
+  margin: 0 auto;
+}
+
+.card_countries {
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 40px;
+  margin: 0 auto;
+}
+
+.card_movies {
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 40px;
+  margin: 10px 100px;
+}
+
+.card_bands {
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 40px;
+  margin: 10px 100px;
+}
+
+.flags {
+  width: 60%;
+  opacity:hover: 80%;
+}
+
